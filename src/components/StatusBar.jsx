@@ -1,0 +1,1 @@
+export function StatusBar({ context, online, pending }) { return <div className="top-status"><span className="status-pill open">● BUKA</span><span className="store-name">{context?.store?.name}</span><span className={`sync-dot ${online?'online':'offline'}`}>{online?'Online':'Offline'}{pending?` · ${pending} pending`:''}</span></div> }

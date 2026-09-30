@@ -1,0 +1,7 @@
+project_id = "bhdnkvjktznkdwoqrvlb"
+
+[functions.send-web-push]
+verify_jwt = false
+
+[functions.gerai-push-config]
+verify_jwt = true
